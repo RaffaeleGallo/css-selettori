@@ -42,7 +42,10 @@ h2 {
 
 /* Testiamo i selettori */
 
-/* input[type] { color: red; } */
+/* Seleziona gli input che hanno un attributo type scritto nell'HTML. */
+input[type] {
+    color: red;
+}
 /* a[href="https://example.com"] { color: red; } */
 /* p[class^="intro"] { color: red; } */
 /* a[href$=".html"] { color: red; } */
